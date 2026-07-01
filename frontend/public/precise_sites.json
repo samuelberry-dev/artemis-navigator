@@ -1,0 +1,76 @@
+{
+  "generated_by": "precompute_sites.py",
+  "description": "Ultra-precise optimal landing points derived from real NASA PGDA 5 m/pixel slope DEMs.",
+  "max_safe_slope_deg": 10.0,
+  "sites": [
+    {
+      "lat": -83.90938,
+      "lon": 122.29671,
+      "footprint_mean_slope_deg": 0.451,
+      "center_pixel_slope_deg": 0.226,
+      "footprint_m": 100,
+      "region_mean_slope_deg": 6.011,
+      "region_min_slope_deg": 0.052,
+      "safe_area_fraction": 0.4383,
+      "resolution_m": 5,
+      "pixel": [
+        1245,
+        1852
+      ],
+      "stereo_xy_m": [
+        156262.5,
+        98772.5
+      ],
+      "region_id": 9,
+      "region_name": "Nobile Rim 2",
+      "source": "NASA PGDA 5 m DEM (DM2_final_adj_5mpp_slp.tif)",
+      "source_url": "https://pgda.gsfc.nasa.gov/products/78"
+    },
+    {
+      "lat": -87.25772,
+      "lon": -158.82895,
+      "footprint_mean_slope_deg": 0.914,
+      "center_pixel_slope_deg": 0.375,
+      "footprint_m": 100,
+      "region_mean_slope_deg": 6.289,
+      "region_min_slope_deg": 0.051,
+      "safe_area_fraction": 0.4768,
+      "resolution_m": 5,
+      "pixel": [
+        5568,
+        4572
+      ],
+      "stereo_xy_m": [
+        -30037.5,
+        77557.5
+      ],
+      "region_id": 5,
+      "region_name": "Haworth",
+      "source": "NASA PGDA 5 m DEM (Haworth_final_adj_5mpp_slp.tif)",
+      "source_url": "https://pgda.gsfc.nasa.gov/products/78"
+    },
+    {
+      "lat": -89.45389,
+      "lon": -22.87603,
+      "footprint_mean_slope_deg": 1.147,
+      "center_pixel_slope_deg": 1.177,
+      "footprint_m": 100,
+      "region_mean_slope_deg": 6.488,
+      "region_min_slope_deg": 0.052,
+      "safe_area_fraction": 0.3644,
+      "resolution_m": 5,
+      "pixel": [
+        2251,
+        2512
+      ],
+      "stereo_xy_m": [
+        -6437.5,
+        -15257.5
+      ],
+      "region_id": 1,
+      "region_name": "Shackleton Crater Rim",
+      "source": "NASA PGDA 5 m DEM (Site01_final_adj_5mpp_slp.tif)",
+      "source_url": "https://pgda.gsfc.nasa.gov/products/78"
+    }
+  ]
+}
